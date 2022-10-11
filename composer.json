@@ -10,9 +10,9 @@
     "require": {
         "php": ">=7.3 || ~8.0.0 || ~8.1.0",
         "mezzio/mezzio-problem-details": "^1.4",
-        "mezzio/mezzio-hal": "^2.4",
-        "laminas/laminas-diactoros": "^2.19",
-        "mezzio/mezzio": "^3.13"
+        "mezzio/mezzio-hal": "^2.2",
+        "laminas/laminas-diactoros": "^2.14",
+        "mezzio/mezzio": "^3.6"
     },
     "autoload": {
         "psr-4": {
