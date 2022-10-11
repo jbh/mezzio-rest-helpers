@@ -1,0 +1,22 @@
+{
+    "name": "sobored/mezzio-rest-helpers",
+    "description": "Helper classes for building RESTful handlers in Mezzio",
+    "license": "BSD-3-Clause",
+    "extra": {
+        "laminas": {
+            "config-provider": "SoBoRed\\Mezzio\\Rest\\ConfigProvider"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ~8.0.0 || ~8.1.0",
+        "mezzio/mezzio-problem-details": "^1.4",
+        "mezzio/mezzio-hal": "^2.4",
+        "laminas/laminas-diactoros": "^2.19",
+        "mezzio/mezzio": "^3.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoBoRed\\Mezzio\\Rest\\": "src/"
+        }
+    }
+}
