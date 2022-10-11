@@ -16,7 +16,7 @@ class RouteDelegator
 {
     public function __invoke(ContainerInterface $container, string $serviceName, callable $factory): Application
     {
-        /** @var Application $application */
+        /** @var Application $app */
         $app = $factory();
 
         $app->get('/api/doc/invalid-parameter', InvalidParameterHandler::class);
@@ -25,6 +25,6 @@ class RouteDelegator
         $app->get('/api/doc/parameter-out-of-range', OutOfBoundsHandler::class);
         $app->get('/api/doc/runtime-error', RuntimeErrorHandler::class);
 
-        return $application;
+        return $app;
     }
 }
