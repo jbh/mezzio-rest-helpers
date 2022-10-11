@@ -88,7 +88,7 @@ response for `NoResourceFoundException`, used above, would be:
 }
 ```
 
-#### Available exceptions
+### Available exceptions
 
 - Status 400: InvalidParameterException, OutOfBoundsException
 - Status 405: MethodNotAllowedException
@@ -103,7 +103,7 @@ problem they are encountering. For this reason, mezzio-rest-helpers
 provides documentation and routes for it, which each exception's
 type points to.
 
-#### Available doc routes
+### Available doc routes
 
 - /api/doc/invalid-parameter
 - /api/doc/method-not-allowed-error
