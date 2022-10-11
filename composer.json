@@ -8,7 +8,7 @@
         }
     },
     "require": {
-        "php": ">=7.3 || ~8.0.0 || ~8.1.0",
+        "php": "^7.3 || ~8.0.0 || ~8.1.0",
         "mezzio/mezzio-problem-details": "^1.4",
         "mezzio/mezzio-hal": "^2.2",
         "laminas/laminas-diactoros": "^2.14",
