@@ -12,8 +12,15 @@ use Psr\Http\Message\ServerRequestInterface;
 
 trait RestDispatchTrait
 {
-    private ResourceGenerator $resourceGenerator;
-    private HalResponseFactory $responseFactory;
+    /**
+     * @var ResourceGenerator
+     */
+    private $resourceGenerator;
+
+    /**
+     * @var HalResponseFactory
+     */
+    private $responseFactory;
 
     /**
      * Create a HAL response from the given $instance, based on the incoming $request.
