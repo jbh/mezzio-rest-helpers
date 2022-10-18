@@ -12,13 +12,13 @@ use Laminas\Diactoros\Response\TextResponse;
 class MethodNotAllowedHandler implements RequestHandlerInterface
 {
     private const MESSAGE = <<< 'EOT'
-Method Not Allowed
+        Method Not Allowed
 
-The HTTP method you used to access the resource is either not allowed,
-or has not been implemented at this time. Check the Allow header to determine
-what methods are allowed when requesting this resource.
+        The HTTP method you used to access the resource is either not allowed,
+        or has not been implemented at this time. Check the Allow header to determine
+        what methods are allowed when requesting this resource.
 
-EOT;
+        EOT;
 
     /**
      * {@inheritDoc}

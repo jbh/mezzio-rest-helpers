@@ -37,6 +37,14 @@ trait RestDispatchTrait
                 $this->resourceGenerator->fromObject($instance, $request)
             );
         } catch (OutOfBoundsException $e) {
+            /**
+             * Conveniently catch out-of-bound pages for pagination
+             *
+             * This is not a catch-all. Be sure to check and throw
+             * relevant exceptions (NoResourceFoundException,
+             * InvalidParameterException, etc.) inside whatever
+             * uses this trait.
+             */
             throw Exception\OutOfBoundsException::create($e->getMessage());
         }
     }

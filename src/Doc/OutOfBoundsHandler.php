@@ -12,14 +12,14 @@ use Psr\Http\Server\RequestHandlerInterface;
 class OutOfBoundsHandler implements RequestHandlerInterface
 {
     private const MESSAGE = <<< 'EOT'
-Parameter Out Of Range
+        Parameter Out Of Range
 
-Usually, this indicates that the "page" specified in the request is
-invalid. Consider fetching the first page of the collection to
-determine how many pages are available, and what the last page
-in the collection is.
+        Usually, this indicates that the "page" specified in the request is
+        invalid. Consider fetching the first page of the collection to
+        determine how many pages are available, and what the last page
+        in the collection is.
 
-EOT;
+        EOT;
 
     /**
      * {@inheritDoc}

@@ -12,12 +12,12 @@ use Psr\Http\Server\RequestHandlerInterface;
 class RuntimeErrorHandler implements RequestHandlerInterface
 {
     private const MESSAGE = <<< 'EOT'
-Runtime Error
+        Runtime Error
 
-A system error has prevented the request from completing. Try again,
-and contact the API administrator if you continue to observe problems.
+        A system error has prevented the request from completing. Try again,
+        and contact the API administrator if you continue to observe problems.
 
-EOT;
+        EOT;
 
     /**
      * {@inheritDoc}

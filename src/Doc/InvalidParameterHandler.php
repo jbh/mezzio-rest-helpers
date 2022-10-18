@@ -12,13 +12,13 @@ use Laminas\Diactoros\Response\TextResponse;
 class InvalidParameterHandler implements RequestHandlerInterface
 {
     private const MESSAGE = <<< 'EOT'
-Invalid Parameter
+        Invalid Parameter
 
-One or more parameters provided in the request are considered invalid by
-the resource. Please check the various error messages to determine what
-changes you may need to make in order to create a successful request.
+        One or more parameters provided in the request are considered invalid by
+        the resource. Please check the various error messages to determine what
+        changes you may need to make in order to create a successful request.
 
-EOT;
+        EOT;
 
     /**
      * {@inheritDoc}
