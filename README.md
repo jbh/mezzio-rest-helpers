@@ -1,6 +1,6 @@
 # Helpers for building RESTful handlers in Mezzio
 
-Helpers and routes to help building a RESTful & HAL-compliant API in [Mezzio](https://github.com/mezzio/mezzio).
+Helpers and routes to help build a RESTful & HAL-compliant API in [Mezzio](https://github.com/mezzio/mezzio).
 
 ## Installation
 
